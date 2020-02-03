@@ -30,6 +30,7 @@ section {
 
 .mt-menu img {
     object-fit: cover;
+    object-position: center;
     /* height: 65px; */
     width: 130px;
 }
@@ -175,6 +176,8 @@ section {
     background-color: #f3f5f9;
     text-align: center;
     color: #93a1b9;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .partner-logo {
@@ -189,13 +192,48 @@ section {
     object-fit: contain;
     object-position: center;
 }
-
-
-
-
-
-
-
-
 /* ----------------------------------------------------------------- */
 /* FINE PARTNER */
+/* ----------------------------------------------------------------- */
+/* INIZIO DEPLOY */
+
+.mt-deploy h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.mt-deploy p {
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+
+.mt-deploy-menu-left li {
+    padding: 17px 10px 17px 30px;
+    border-left: 2px solid #e5e8ed;
+    line-height: 100%;
+
+}
+
+.mt-deploy-menu-left li a {
+    text-decoration: none;
+    color: #818da6;
+}
+
+.mt-deploy-menu-left li a:hover {
+    color: #031b4e;
+}
+
+.mt-deploy-testo h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.mt-deploy-testo i {
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+}
+
+/* ----------------------------------------------------------------- */
+/* FINE DEPLOY */
