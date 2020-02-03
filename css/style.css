@@ -219,8 +219,9 @@ section {
     color: #818da6;
 }
 
-.mt-deploy-menu-left li a:hover {
+.mt-deploy-menu-left li:hover, .mt-deploy-menu-left li a:hover {
     color: #031b4e;
+    border-left-color: #0069ff;
 }
 
 .mt-deploy-testo h3 {
@@ -237,3 +238,79 @@ section {
 
 /* ----------------------------------------------------------------- */
 /* FINE DEPLOY */
+/* ----------------------------------------------------------------- */
+/* INIZIO DESIGN */
+.mt-design {
+    background-color: #f3f5f9;
+}
+
+.mt-design h2 {
+    color: rgb(3, 27, 78);
+    font-size: 36px;
+    margin-bottom:45px;
+}
+
+.mt-design p {
+    font-size:25px;
+    color: rgb(3, 27, 78);
+    margin-bottom: 64px;
+    line-height: bold;
+}
+
+
+.mt-design-img img {
+    height: 560px;
+}
+
+.mt-design-img p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* ----------------------------------------------------------------- */
+/* FINE DESIGN */
+/* ----------------------------------------------------------------- */
+/* INIZIO BUSINESS */
+.mt-business {
+    color: #031b4e;
+}
+
+.mt-business h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.mt-business-scheda i {
+    height: 40px;
+    width: 40px;
+}
+
+.business-p-titolo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.business-p-testo {
+    margin: 16px 0;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.mt-business-scheda i {
+    font-size: 40px;
+    margin: 0 16px;
+}
+
+.mt-business-scheda a {
+    text-decoration: none;
+    color: #5d69ff;
+    font-weight: 700;
+}
+
+.mt-business-scheda a:hover {
+    color: #005fe6;
+}
+
+/* ----------------------------------------------------------------- */
+/* FINE BUSINESS */
