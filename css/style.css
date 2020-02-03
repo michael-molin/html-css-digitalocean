@@ -5,7 +5,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
-
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 /* ----------------------------------------------------------------- */
 /* INIZIO NAV */
@@ -16,15 +19,13 @@
     align-items: center;
     line-height: 24px;
     padding: 0 30px;
+    vertical-align: middle;
+    overflow:hidden;
 }
 .mt-menu li a {
     text-decoration: none;
     color: black;
     font-weight: 500;
-}
-
-.mt-menu {
-    vertical-align: middle;
 }
 
 .mt-menu img {
@@ -55,3 +56,105 @@
 }
 /* ----------------------------------------------------------------- */
 /* FINE NAV */
+/* ----------------------------------------------------------------- */
+/* INIZIO JUMBOTRON */
+
+.mt-banner {
+    background: #0049ff url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.title-left, .form-right {
+    color: white;
+    padding-left: 16px;
+    padding-top: 16px;
+    position: relative;
+    bottom:10px;
+}
+
+.mt-jumbotron h1 {
+    font-size: 62px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.mt-jumbotron p {
+    font-size: 24px;
+}
+
+.form-right {
+    background-color: white;
+    padding: 32px;
+    color: black;
+    width: 40%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.form-right input {
+    height: 48px;
+    padding: 0 16px;
+    max-width: 100%;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+}
+
+#btn-create {
+    width: 100%;
+    font-size: 16px;
+    color:white;
+    background-color: #0069ff;
+    border-radius: 5px;
+    border: 1px solid;
+    height: 48px;
+    margin-top: 16px;
+}
+
+#btn-create:hover {
+    background-color: #1633ff;
+}
+
+ .mt-span-form {
+        padding: 16px;
+}
+
+.mt-span-form:before , .mt-span-form:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 110px;
+    background-color: black;
+    position: relative;
+    bottom:5px;
+}
+
+.mt-span-form:after {
+    left: 20px;
+}
+
+.mt-span-form:before {
+    right: 20px;
+}
+
+.btn-google, .btn-github {
+    height: 48px;
+    padding: 0 50px;
+    color: black;
+    font-weight: 700;
+    background-color: #f2f8ff;
+    margin-top: 16px;
+    border: 1px solid rgba(0,105,255,.2);
+    border-radius: 3px;
+}
+
+.btn-google:hover, .btn-github:hover {
+    background-color: #d5e4f7;
+}
+
+.small-form {
+    margin-top: 16px;
+    padding-top: 16px;
+}
+/* ----------------------------------------------------------------- */
+/* FINE JUMBOTRON */
