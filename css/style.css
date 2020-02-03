@@ -58,7 +58,6 @@ section {
 /* FINE NAV */
 /* ----------------------------------------------------------------- */
 /* INIZIO JUMBOTRON */
-
 .mt-banner {
     background: #0049ff url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
     background-position: bottom;
@@ -69,9 +68,22 @@ section {
     color: white;
     padding-left: 16px;
     padding-top: 16px;
-    position: relative;
-    bottom:10px;
 }
+
+.title-left {
+    position: relative;
+    top:50px;
+}
+
+.form-right {
+    position: relative;
+    left:30px;
+}
+
+.form-right * {
+    margin-top: 16px;
+}
+
 
 .mt-jumbotron h1 {
     font-size: 62px;
@@ -108,15 +120,14 @@ section {
     border-radius: 5px;
     border: 1px solid;
     height: 48px;
-    margin-top: 16px;
 }
 
 #btn-create:hover {
     background-color: #1633ff;
 }
 
- .mt-span-form {
-        padding: 16px;
+.mt-span-form {
+    display:block;
 }
 
 .mt-span-form:before , .mt-span-form:after {
@@ -143,7 +154,6 @@ section {
     color: black;
     font-weight: 700;
     background-color: #f2f8ff;
-    margin-top: 16px;
     border: 1px solid rgba(0,105,255,.2);
     border-radius: 3px;
 }
@@ -154,7 +164,38 @@ section {
 
 .small-form {
     margin-top: 16px;
-    padding-top: 16px;
+    display:block;
 }
 /* ----------------------------------------------------------------- */
 /* FINE JUMBOTRON */
+/* ----------------------------------------------------------------- */
+/*INIZIO PARTNER */
+
+.partners {
+    background-color: #f3f5f9;
+    text-align: center;
+    color: #93a1b9;
+}
+
+.partner-logo {
+    vertical-align: middle;
+    height: 78px;
+    margin: 30px auto;
+}
+
+.partner-logo img {
+    height:100%;
+    width:100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------- */
+/* FINE PARTNER */
