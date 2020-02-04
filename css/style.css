@@ -18,6 +18,16 @@ section {
     vertical-align: middle;
 }
 
+.mt-nav-mobile {
+    background-color: #0049ff;
+    vertical-align: middle;
+    line-height: 50px;
+    padding: 15px 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .mt-menu li a {
     text-decoration: none;
     color: black;
@@ -85,8 +95,9 @@ section {
     background-color: white;
     padding: 32px;
     color: black;
-    width: 40%;
+    max-width: 100%;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 .form-right input {
@@ -119,7 +130,7 @@ section {
     content: "";
     display: inline-block;
     height: 1px;
-    width: 30%;
+    width: 15%;
     background-color: black;
     position: relative;
     bottom:5px;
@@ -251,6 +262,7 @@ section {
 /* INIZIO BUSINESS */
 .mt-business {
     color: #031b4e;
+    vertical-align: middle;
 }
 
 .mt-business h2 {
@@ -266,7 +278,7 @@ section {
 
 .business-p-titolo {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .business-p-testo {
@@ -277,7 +289,6 @@ section {
 
 .mt-business-scheda i {
     font-size: 40px;
-    margin: 0 16px;
 }
 
 .mt-business-scheda a {
@@ -440,10 +451,11 @@ footer {
     color:white;
 }
 
+
 .mt-footer {
     display: inline-block;
     padding: 0 30px;
-    vertical-align: top;
+    vertical-align: middle;
 }
 /* ----------------------------------------------------------------- */
 /* FINE FOOTER */
@@ -471,11 +483,48 @@ footer {
 .mt-subfooter-icons a, .mt-subfooter-logo p {
     color: #6d8794;
 }
+
+.mt-subfooter-icons a:hover {
+    color:white;
+}
 /* ----------------------------------------------------------------- */
 /* FINE SUBFOOTER */
-
-
-
-
 /* ----------------------------------------------------------------- */
 /* INIZIO MEDIA */
+
+@media screen and (max-width:992px) {
+    .mt-nav-desktop {
+        display:none;
+    }
+
+    .mt-nav-mobile {
+        display:block;
+    }
+
+    .mt-deploy-menu-left li {
+        display:inline;
+        border-top: 2px solid #e5e8ed;
+        border-left: none;
+        text-align: left;
+        padding: auto;
+    }
+
+    .mt-deploy-menu-left li:hover, .mt-deploy-menu-left li a:hover {
+        color: #031b4e;
+        border-top-color: #0069ff;
+    }
+
+    .mt-deploy-menu-left {
+        margin: 0 auto 32px;;
+    }
+
+    .mt-footer {
+        margin-bottom: 30px;
+        vertical-align: baseline;
+    }
+}
+
+@media screen and (max-width:767px ) {
+
+
+}
