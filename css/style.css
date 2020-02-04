@@ -343,3 +343,44 @@ section {
 }
 /* ----------------------------------------------------------------- */
 /* FINE WORLD */
+/* ----------------------------------------------------------------- */
+/* INIZIO TEAMS */
+.mt-teams {
+    background-color: #f3f5f9;
+    color: #031b4e;
+}
+
+.mt-teams h2 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.mt-teams p {
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+
+.mt-teams-blocco {
+    background-color: white;
+    padding: 32px;
+    border: 1px solid #e5e8ed;
+    border-radius: 5px;
+}
+
+.mt-teams-blocco img {
+    max-width: 175px;
+    margin: 0 auto 32px auto;
+}
+
+.mt-teams-blocco p {
+    font-size: 24px;
+}
+
+.mt-teams-blocco small {
+    display: block;
+    margin-bottom: 32px;
+}
+/* ----------------------------------------------------------------- */
+/* FINE TEAMS */
