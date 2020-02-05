@@ -12,7 +12,6 @@ section {
 
 .mt-nav-desktop {
     background-color: #ffffff;
-    height: 65px;
     line-height: 65px;
     padding: 0 30px;
     vertical-align: middle;
@@ -72,10 +71,6 @@ section {
     padding-top: 16px;
 }
 
-.form-right * {
-    margin-top: 16px;
-}
-
 .title-left h1 {
     font-size: 62px;
     margin-bottom: 16px;
@@ -133,6 +128,7 @@ section {
     background-color: black;
     position: relative;
     bottom:5px;
+    margin: 30px 0;
 }
 
 .mt-span-form:after {
@@ -167,8 +163,7 @@ section {
     background-color: #f3f5f9;
     text-align: center;
     color: #93a1b9;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 64px 0;
 }
 
 .partner-logo {
