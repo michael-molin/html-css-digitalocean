@@ -263,6 +263,7 @@ section {
 .mt-business {
     color: #031b4e;
     vertical-align: middle;
+    margin: 0 auto;
 }
 
 .mt-business h2 {
@@ -525,6 +526,10 @@ footer {
 
     .mt-world-table {
         margin-bottom: 50px;
+    }
+
+    .mt-business-scheda {
+        margin-top: 30px;
     }
 }
 
