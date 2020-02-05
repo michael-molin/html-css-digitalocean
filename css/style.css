@@ -492,7 +492,7 @@ footer {
 /* ----------------------------------------------------------------- */
 /* INIZIO MEDIA */
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:991px) {
     .mt-nav-desktop {
         display:none;
     }
@@ -521,6 +521,10 @@ footer {
     .mt-footer {
         margin-bottom: 30px;
         vertical-align: baseline;
+    }
+
+    .mt-world-table {
+        margin-bottom: 50px;
     }
 }
 
