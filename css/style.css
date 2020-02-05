@@ -457,6 +457,7 @@ footer {
     display: inline-block;
     padding: 0 30px;
     vertical-align: middle;
+    height: 330px;
 }
 /* ----------------------------------------------------------------- */
 /* FINE FOOTER */
@@ -466,6 +467,7 @@ footer {
     margin-top: 50px;
     border-top: 1px solid hsla(0,0%,100%,.2);
     text-align: center;
+    height: 330px;
 }
 
 .mt-subfooter-logo {
