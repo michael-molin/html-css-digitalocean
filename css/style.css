@@ -33,6 +33,10 @@ section {
     font-weight: 500;
 }
 
+.mt-menu li a:hover {
+    color: #0069ff;
+}
+
 .mt-nav-desktop img {
     height: 63px;
 }
