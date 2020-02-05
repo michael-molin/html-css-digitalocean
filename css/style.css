@@ -118,6 +118,7 @@ section {
 
 .mt-span-form {
     display:block;
+    margin: 30px 0;
 }
 
 .mt-span-form:before , .mt-span-form:after {
@@ -128,7 +129,6 @@ section {
     background-color: black;
     position: relative;
     bottom:5px;
-    margin: 30px 0;
 }
 
 .mt-span-form:after {
